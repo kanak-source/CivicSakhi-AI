@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-width,initial-scale=1">
+
+<title>Report Complaint</title>
+
+<link rel="stylesheet"
+href="css/report.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+
+<!-- TOP BAR -->
+
+<div class="topbar">
+
+<div>
+🇮🇳 Government Of India
+</div>
+
+<div>
+
+Emergency : 112
+
+</div>
+
+</div>
+
+
+
+<!-- NAVBAR -->
+
+<nav class="navbar">
+
+<div class="logo">
+
+<h1>Nagar<span>Sathi</span></h1>
+
+</div>
+
+
+<ul>
+
+<li>
+<a href="index.html">Home</a>
+</li>
+
+<li class="active">
+<a href="report.html">Report</a>
+</li>
+
+<li>
+<a href="track.html">Track</a>
+</li>
+
+<li>
+<a href="dashboard.html">Dashboard</a>
+</li>
+
+</ul>
+
+</nav>
+
+
+
+<!-- HERO -->
+
+<section class="report-hero">
+
+<div class="overlay"></div>
+
+<div class="hero-text">
+
+<h1>
+
+शिकायत दर्ज करें
+
+</h1>
+
+<p>
+
+अपने शहर को बेहतर बनाने के लिए समस्या दर्ज करें
+
+</p>
+
+</div>
+
+</section>
+
+
+
+<!-- FORM SECTION -->
+
+<section class="report-container">
+
+<div class="left-info">
+
+<h2>
+
+शिकायत श्रेणियां
+
+</h2>
+
+
+<div class="info-card">
+
+🗑️ सफाई सेवाएं
+
+</div>
+
+<div class="info-card">
+
+💧 पानी संबंधित समस्या
+
+</div>
+
+<div class="info-card">
+
+🛣️ सड़क एवं गड्ढे
+
+</div>
+
+<div class="info-card">
+
+💡 स्ट्रीट लाइट
+
+</div>
+
+<div class="info-card">
+
+🏢 अन्य शिकायतें
+
+</div>
+
+</div>
+
+
+
+<div class="form-box">
+
+<h2>
+
+नई शिकायत
+
+</h2>
+
+
+<form id="complaintForm">
+
+<input
+type="text"
+placeholder="पूरा नाम"
+required>
+
+<input
+type="tel"
+placeholder="मोबाइल नंबर"
+required>
+
+
+<select required>
+
+<option>
+
+शिकायत प्रकार चुनें
+
+</option>
+
+<option>सफाई</option>
+
+<option>पानी</option>
+
+<option>सड़क</option>
+
+<option>स्ट्रीट लाइट</option>
+
+</select>
+
+
+<input
+type="text"
+placeholder="स्थान">
+
+<textarea
+placeholder="समस्या विवरण">
+</textarea>
+
+
+<label class="upload">
+
+<i class="fa-solid fa-cloud-arrow-up"></i>
+
+फोटो अपलोड करें
+
+<input type="file">
+
+</label>
+
+
+<button type="submit">
+
+शिकायत दर्ज करें
+
+</button>
+
+</form>
+
+
+<div id="success">
+
+</div>
+
+</div>
+
+</section>
+
+<script src="js/report.js"></script>
+
+</body>
+
+</html>

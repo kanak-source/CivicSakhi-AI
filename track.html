@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Track Complaint</title>
+
+<link rel="stylesheet" href="css/track.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="topbar">
+
+<div>🇮🇳 Government Of India</div>
+
+<div>Emergency:112</div>
+
+</div>
+
+
+<nav class="navbar">
+
+<div class="logo">
+
+<h1>Nagar<span>Sathi</span></h1>
+
+</div>
+
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="report.html">Report</a></li>
+
+<li class="active">
+<a href="track.html">Track</a>
+</li>
+
+<li><a href="dashboard.html">Dashboard</a></li>
+
+</ul>
+
+</nav>
+
+
+
+<section class="hero">
+
+<div class="overlay"></div>
+
+<div class="hero-content">
+
+<h1>शिकायत की स्थिति जांचें</h1>
+
+<p>
+
+अपनी शिकायत का वर्तमान स्टेटस देखें
+
+</p>
+
+</div>
+
+</section>
+
+
+
+<section class="track-container">
+
+<div class="search-box">
+
+<h2>
+
+Complaint Tracking
+
+</h2>
+
+
+<div class="search-area">
+
+<input
+id="complaintId"
+placeholder="Enter Complaint ID">
+
+<button
+onclick="trackComplaint()">
+
+Track
+
+</button>
+
+</div>
+
+</div>
+
+
+
+
+<div id="resultBox">
+
+</div>
+
+</section>
+
+
+<script src="js/track.js"></script>
+
+</body>
+</html>

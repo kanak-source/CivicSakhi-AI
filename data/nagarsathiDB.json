@@ -1,0 +1,274 @@
+{
+"city":"Mahwa",
+
+"state":"Rajasthan",
+
+"wards":[
+
+{
+"id":"1",
+"name":"Ward 1",
+"area":"Bus Stand Area",
+"waterSupply":"06:00 PM",
+"garbage":"07:00 AM",
+"population":"5200"
+},
+
+{
+"id":"2",
+"name":"Ward 2",
+"area":"Main Market",
+"waterSupply":"06:30 PM",
+"garbage":"07:30 AM",
+"population":"4800"
+},
+
+{
+"id":"3",
+"name":"Ward 3",
+"area":"Panchayat Road",
+"waterSupply":"07:00 PM",
+"garbage":"08:00 AM",
+"population":"6500"
+},
+
+{
+"id":"4",
+"name":"Ward 4",
+"area":"Railway Area",
+"waterSupply":"07:30 PM",
+"garbage":"08:30 AM",
+"population":"4300"
+},
+
+{
+"id":"5",
+"name":"Ward 5",
+"area":"Civil Line",
+"waterSupply":"08:00 PM",
+"garbage":"09:00 AM",
+"population":"5100"
+}
+
+],
+
+"officers":[
+
+{
+"role":"EO",
+"name":"Rakesh Meena",
+"phone":"9876543210",
+"office":"Nagar Palika Mahwa"
+},
+
+{
+"role":"JE",
+"name":"Mohit Sharma",
+"phone":"9876543211",
+"office":"Engineering Department"
+},
+
+{
+"role":"AE",
+"name":"Amit Verma",
+"phone":"9876543212",
+"office":"Water Department"
+}
+
+],
+
+"departments":[
+
+{
+"name":"Municipality",
+"phone":"01427-123456"
+},
+
+{
+"name":"Water Department",
+"phone":"01427-456789"
+},
+
+{
+"name":"Electricity Department",
+"phone":"01427-222222"
+},
+
+{
+"name":"Health Department",
+"phone":"01427-555555"
+},
+
+{
+"name":"Fire Station",
+"phone":"101"
+},
+
+{
+"name":"Police",
+"phone":"100"
+}
+
+],
+
+"works":[
+
+{
+"id":"W001",
+"title":"Main Road Repair",
+"ward":"3",
+"progress":"70%",
+"contractor":"XYZ Infra",
+"budget":"₹15 Lakhs",
+"startDate":"2025-06-01",
+"completion":"2025-07-15"
+},
+
+{
+"id":"W002",
+"title":"Drain Construction",
+"ward":"5",
+"progress":"45%",
+"contractor":"ABC Projects",
+"budget":"₹10 Lakhs",
+"startDate":"2025-06-05",
+"completion":"2025-08-10"
+},
+
+{
+"id":"W003",
+"title":"Park Development",
+"ward":"1",
+"progress":"60%",
+"contractor":"Green Builders",
+"budget":"₹7 Lakhs",
+"startDate":"2025-05-25",
+"completion":"2025-07-20"
+},
+
+{
+"id":"W004",
+"title":"Street Light Installation",
+"ward":"2",
+"progress":"80%",
+"contractor":"LightTech Pvt Ltd",
+"budget":"₹5 Lakhs",
+"startDate":"2025-05-10",
+"completion":"2025-06-25"
+}
+
+],
+
+"complaints":[
+
+{
+"id":"C001",
+"type":"Road Damage",
+"status":"Pending",
+"ward":"3"
+},
+
+{
+"id":"C002",
+"type":"Garbage Overflow",
+"status":"Resolved",
+"ward":"2"
+},
+
+{
+"id":"C003",
+"type":"Water Leakage",
+"status":"In Progress",
+"ward":"5"
+}
+
+],
+
+"hospitals":[
+
+{
+"name":"Government Hospital Mahwa",
+"phone":"01427-777777",
+"location":"Main Road"
+},
+
+{
+"name":"Community Health Center",
+"phone":"01427-888888",
+"location":"Ward 3"
+}
+
+],
+
+"schools":[
+
+{
+"name":"Government Senior Secondary School",
+"location":"Ward 2"
+},
+
+{
+"name":"Mahatma Gandhi School",
+"location":"Ward 5"
+}
+
+],
+
+"schemes":[
+
+{
+"name":"PM Awas Yojana",
+"description":"Housing support"
+},
+
+{
+"name":"Ayushman Bharat",
+"description":"Health insurance"
+},
+
+{
+"name":"PM Kisan",
+"description":"Farmer support"
+}
+
+],
+
+"announcements":[
+
+{
+"title":"Water Supply Delay",
+"message":"Water supply delayed by 30 minutes today."
+},
+
+{
+"title":"Road Work Notice",
+"message":"Ward 3 road repair begins tomorrow."
+}
+
+],
+
+"keywords":[
+
+"water",
+"garbage",
+"road",
+"hospital",
+"school",
+"contractor",
+"eo",
+"je",
+"complaint",
+"electricity",
+"fire",
+"police",
+"scheme",
+"work",
+"park",
+"drain",
+"light",
+"office",
+"timing",
+"ward"
+
+]
+}

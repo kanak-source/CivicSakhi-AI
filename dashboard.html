@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-width,initial-scale=1.0">
+
+<title>NagarSathi Dashboard</title>
+
+<link rel="stylesheet"
+href="css/dashboard.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- TOP NAV -->
+
+<nav class="top-nav">
+
+<div class="left-nav">
+
+<a href="index.html" class="back-btn">
+
+<i class="fa-solid fa-arrow-left"></i>
+
+Home
+
+</a>
+
+<h2>Nagar<span>Sathi</span></h2>
+
+</div>
+
+
+<div class="town-info">
+
+<i class="fa-solid fa-location-dot"></i>
+
+Mahwa, Dausa
+
+</div>
+
+</nav>
+
+
+
+<!-- MAIN DASHBOARD -->
+
+<div class="dashboard-container">
+
+
+<section class="hero-section">
+
+<div class="hero-left">
+
+<h1>
+
+नमस्ते नागरिक! 👋
+
+</h1>
+
+<p>
+
+आपका स्वागत है Mahwa शहर की नागरिक जानकारी डैशबोर्ड पर
+
+</p>
+
+<div class="location">
+
+<i class="fa-solid fa-location-dot"></i>
+
+Mahwa, Rajasthan
+
+</div>
+
+</div>
+
+
+</section>
+
+
+
+<section class="quick-stats">
+
+<div class="stat-card">
+
+<i class="fa-solid fa-road"></i>
+
+<h3>24</h3>
+
+<p>Active Works</p>
+
+</div>
+
+
+<div class="stat-card">
+
+<i class="fa-solid fa-circle-check"></i>
+
+<h3>18</h3>
+
+<p>Completed</p>
+
+</div>
+
+
+<div class="stat-card">
+
+<i class="fa-solid fa-users"></i>
+
+<h3>12k+</h3>
+
+<p>Citizens</p>
+
+</div>
+
+
+<div class="stat-card">
+
+<i class="fa-solid fa-file-circle-check"></i>
+
+<h3>128</h3>
+
+<p>Complaints</p>
+
+</div>
+
+</section>
+
+
+
+<section class="info-cards">
+
+
+<div class="info-box">
+
+<i class="fa-solid fa-building"></i>
+
+<div>
+
+<h3>Nagar Palika Mahwa</h3>
+
+<p>Mahwa, Rajasthan</p>
+
+</div>
+
+</div>
+
+
+
+<div class="info-box">
+
+<i class="fa-solid fa-user-tie"></i>
+
+<div>
+
+<h3>Executive Officer</h3>
+
+<p>Rakesh Meena</p>
+
+</div>
+
+</div>
+
+
+
+<div class="info-box">
+
+<i class="fa-solid fa-location-pin"></i>
+
+<div>
+
+<h3>Office Location</h3>
+
+<p>Panchayat Samiti Road</p>
+
+</div>
+
+</div>
+
+
+
+<div class="info-box">
+
+<i class="fa-regular fa-clock"></i>
+
+<div>
+
+<h3>Office Time</h3>
+
+<p>10AM - 5PM</p>
+
+</div>
+
+</div>
+
+
+</section>
+<!-- ONGOING WORKS + MAP -->
+
+<section class="work-map-container">
+
+<div class="works-section">
+
+<div class="section-head">
+
+<h2>शहर में चल रहे प्रमुख कार्य</h2>
+
+<a href="#">सभी देखें →</a>
+
+</div>
+
+
+<div class="work-grid">
+
+
+<div class="work-card">
+
+<img src="images/road.jpg">
+
+<h3>मुख्य सड़क मरम्मत</h3>
+
+<p>Ward 3, Mahwa</p>
+
+<div class="progress">
+
+<div class="progress-fill p70"></div>
+
+</div>
+
+<span>70%</span>
+
+</div>
+
+
+
+<div class="work-card">
+
+<img src="images/drain.jpg">
+
+<h3>नाली निर्माण कार्य</h3>
+
+<p>Ward 5, Mahwa</p>
+
+<div class="progress">
+
+<div class="progress-fill p45"></div>
+
+</div>
+
+<span>45%</span>
+
+</div>
+
+
+
+<div class="work-card">
+
+<img src="images/light.jpg">
+
+<h3>स्ट्रीट लाइट</h3>
+
+<p>Ward 2, Mahwa</p>
+
+<div class="progress">
+
+<div class="progress-fill p80"></div>
+
+</div>
+
+<span>80%</span>
+
+</div>
+
+
+
+<div class="work-card">
+
+<img src="images/park.jpg">
+
+<h3>पार्क विकास</h3>
+
+<p>Ward 1, Mahwa</p>
+
+<div class="progress">
+
+<div class="progress-fill p60"></div>
+
+</div>
+
+<span>60%</span>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+
+<div class="map-section">
+
+<div class="section-head">
+
+<h2>शहर का नक्शा</h2>
+
+<a href="#">पूर्ण मानचित्र →</a>
+
+</div>
+
+<img
+class="city-map"
+src="images/map.png">
+
+<div class="ai-summary">
+
+<div class="summary-top">
+
+<div>
+
+<h3>
+
+<i class="fa-solid fa-wand-magic-sparkles"></i>
+
+AI Daily Summary
+
+</h3>
+
+<p id="summaryTime">
+
+Updated just now
+
+</p>
+
+</div>
+
+<div class="live-dot"></div>
+
+</div>
+
+
+
+<div id="summaryContent">
+
+<div class="summary-item">
+
+<i class="fa-solid fa-droplet"></i>
+
+<p>
+
+Water supply at 6:00 PM for Ward 3 & 4
+
+</p>
+
+</div>
+
+
+<div class="summary-item">
+
+<i class="fa-solid fa-road"></i>
+
+<p>
+
+Road repair work in Ward 3 is 70% completed
+
+</p>
+
+</div>
+
+
+<div class="summary-item">
+
+<i class="fa-solid fa-truck"></i>
+
+<p>
+
+Garbage vehicle delayed by 20 minutes
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+
+</section>
+
+
+<section class="community-section">
+
+<div class="section-head">
+
+<h2>नागरिक समस्या फ़ीड</h2>
+
+<a href="#">सभी देखें →</a>
+
+</div>
+
+
+
+<div class="report-box">
+
+<h3>नई समस्या रिपोर्ट करें</h3>
+
+<div class="report-form">
+
+<input
+id="issueText"
+type="text"
+placeholder="समस्या लिखें...">
+
+<input
+id="issueImage"
+type="file">
+
+<button
+onclick="createIssue()">
+
+रिपोर्ट करें
+
+</button>
+
+</div>
+
+</div>
+
+
+
+<div
+class="community-feed"
+id="communityFeed">
+
+</div>
+
+</section>
+
+
+<!-- IMPORTANT SERVICES -->
+
+<section class="services-section">
+
+<h2>महत्वपूर्ण सेवाएं</h2>
+
+<div class="service-grid">
+
+
+<div class="service-card">
+
+<i class="fa-solid fa-truck"></i>
+
+<h3>कचरा वाहन</h3>
+
+<p>समय देखें</p>
+
+</div>
+
+
+<div class="service-card">
+
+<i class="fa-solid fa-droplet"></i>
+
+<h3>पानी आपूर्ति</h3>
+
+<p>समय सारणी</p>
+
+</div>
+
+
+
+<div class="service-card">
+
+<i class="fa-solid fa-lightbulb"></i>
+
+<h3>स्ट्रीट लाइट</h3>
+
+<p>रिपोर्ट करें</p>
+
+</div>
+
+
+
+<div class="service-card">
+
+<i class="fa-solid fa-broom"></i>
+
+<h3>सफाई अभियान</h3>
+
+<p>जानकारी देखें</p>
+
+</div>
+
+
+
+<div class="service-card">
+
+<i class="fa-solid fa-file"></i>
+
+<h3>जन्म प्रमाण पत्र</h3>
+
+<p>आवेदन करें</p>
+
+</div>
+
+
+
+<div class="service-card">
+
+<i class="fa-solid fa-building"></i>
+
+<h3>भवन अनुमति</h3>
+
+<p>ऑनलाइन आवेदन</p>
+
+</div>
+
+
+</div>
+
+</section>
+
+<!-- EMERGENCY QUICK ACCESS -->
+
+<section class="emergency-section">
+
+<h2>
+
+<i class="fa-solid fa-triangle-exclamation"></i>
+
+Emergency Quick Access
+
+</h2>
+
+
+<div class="emergency-grid">
+
+
+<div class="emergency-card hospital">
+
+<i class="fa-solid fa-hospital"></i>
+
+<h3>Hospital</h3>
+
+<p>Emergency Medical Help</p>
+
+<a href="tel:108">
+
+<button>
+
+Call Now
+
+</button>
+
+</a>
+
+</div>
+
+
+
+<div class="emergency-card fire">
+
+<i class="fa-solid fa-fire-extinguisher"></i>
+
+<h3>Fire</h3>
+
+<p>Fire Emergency Service</p>
+
+<a href="tel:101">
+
+<button>
+
+Call Now
+
+</button>
+
+</a>
+
+</div>
+
+
+
+<div class="emergency-card police">
+
+<i class="fa-solid fa-shield-halved"></i>
+
+<h3>Police</h3>
+
+<p>Police Control Room</p>
+
+<a href="tel:100">
+
+<button>
+
+Call Now
+
+</button>
+
+</a>
+
+</div>
+
+
+
+
+<div class="emergency-card electricity">
+
+<i class="fa-solid fa-bolt"></i>
+
+<h3>Electricity</h3>
+
+<p>Power Complaint</p>
+
+<a href="#">
+
+<button>
+
+Details
+
+</button>
+
+</a>
+
+</div>
+
+
+
+<div class="emergency-card water">
+
+<i class="fa-solid fa-droplet"></i>
+
+<h3>Water Dept.</h3>
+
+<p>Water Support</p>
+
+<a href="#">
+
+<button>
+
+Details
+
+</button>
+
+</a>
+
+</div>
+
+
+</div>
+
+</section>
+<!-- SCHEDULE SECTION -->
+
+<section class="schedule-container">
+
+<div class="schedule-card">
+
+<div class="schedule-top">
+
+<i class="fa-solid fa-truck"></i>
+
+<h2>कचरा वाहन समय सारणी</h2>
+
+</div>
+
+<p>अगला कचरा संग्रहण</p>
+
+<h3>कल, 19 मई 2025</h3>
+
+<h1>सुबह 07:00 बजे</h1>
+
+<span>आपका क्षेत्र: Ward 3, Mahwa</span>
+
+<button>पूरा शेड्यूल देखें</button>
+
+</div>
+
+
+
+
+<div class="schedule-card">
+
+<div class="schedule-top">
+
+<i class="fa-solid fa-droplet"></i>
+
+<h2>पानी आपूर्ति समय</h2>
+
+</div>
+
+<p>अगली जल आपूर्ति</p>
+
+<h3>आज, 18 मई 2025</h3>
+
+<h1>शाम 06:00 बजे</h1>
+
+<span>आपका क्षेत्र: Ward 3,4,5</span>
+
+<button>समय देखें</button>
+
+</div>
+
+</section>
+
+
+
+
+
+<!-- LATEST UPDATES -->
+
+<section class="updates-contact-container">
+
+
+<div class="updates-box">
+
+<div class="section-head">
+
+<h2>ताज़ा अपडेट</h2>
+
+<a href="#">सभी देखें →</a>
+
+</div>
+
+
+<div class="update-item">
+
+<i class="fa-solid fa-bullhorn"></i>
+
+<p>
+
+Ward 3 में सड़क मरम्मत कार्य कल से शुरू होगा।
+
+</p>
+
+</div>
+
+
+<div class="update-item">
+
+<i class="fa-solid fa-bullhorn"></i>
+
+<p>
+
+स्ट्रीट लाइट खराब है? तुरंत रिपोर्ट करें।
+
+</p>
+
+</div>
+
+
+<div class="update-item">
+
+<i class="fa-solid fa-bullhorn"></i>
+
+<p>
+
+नगर पालिका कार्यालय समय सुबह 10 से शाम 5 तक।
+
+</p>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="contacts-box">
+
+<h2>उपयोगी संपर्क</h2>
+
+
+<div class="contact-grid">
+
+
+<div class="contact-card">
+
+<i class="fa-solid fa-building"></i>
+
+<h4>नगरपालिका</h4>
+
+<p>01427-XXXXXX</p>
+
+</div>
+
+
+<div class="contact-card">
+
+<i class="fa-solid fa-droplet"></i>
+
+<h4>जल विभाग</h4>
+
+<p>01427-XXXXXX</p>
+
+</div>
+
+
+
+<div class="contact-card">
+
+<i class="fa-solid fa-bolt"></i>
+
+<h4>बिजली विभाग</h4>
+
+<p>01427-XXXXXX</p>
+
+</div>
+
+
+
+<div class="contact-card">
+
+<i class="fa-solid fa-hospital"></i>
+
+<h4>स्वास्थ्य विभाग</h4>
+
+<p>01427-XXXXXX</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+
+
+<!-- COMPLAINT QUICK ACTION -->
+
+<section class="complaint-box">
+
+<div>
+
+<h2>शिकायत दर्ज करें</h2>
+
+<p>
+
+अपनी शिकायत आसानी से दर्ज करें और उसकी स्थिति ट्रैक करें।
+
+</p>
+
+</div>
+
+
+<a href="report.html">
+
+<button>
+
+<i class="fa-solid fa-pen"></i>
+
+शिकायत दर्ज करें
+
+</button>
+
+</a>
+
+</section>
+</div>
+<!-- Floating Chat Button -->
+
+<div class="chat-float" onclick="openChat()">
+
+<i class="fa-solid fa-robot"></i>
+
+</div>
+
+
+
+<!-- Chat Popup -->
+
+<div class="chat-popup" id="chatBox">
+
+<div class="chat-header">
+
+<div>
+
+<h3>नागर AI सहायक</h3>
+
+<p>24×7 सहायता उपलब्ध</p>
+
+</div>
+
+<button onclick="closeChat()">
+
+<i class="fa-solid fa-xmark"></i>
+
+</button>
+
+</div>
+
+
+
+<div class="chat-body">
+
+<div class="bot-message">
+
+नमस्ते 👋 मैं NagarSathi AI हूँ।
+मैं आपकी कैसे सहायता कर सकता हूँ?
+
+</div>
+
+</div>
+
+
+
+<div class="chat-input">
+
+<input
+type="text"
+placeholder="अपना प्रश्न लिखें...">
+
+<button>
+
+<i class="fa-solid fa-paper-plane"></i>
+
+</button>
+
+</div>
+
+</div>
+<script>
+
+function openChat(){
+
+document.getElementById(
+'chatBox'
+).style.display="flex";
+
+}
+
+function closeChat(){
+
+document.getElementById(
+'chatBox'
+).style.display="none";
+
+}
+
+</script>
+<!-- FLOAT BUTTON -->
+
+<div class="chat-float"
+onclick="openChat()">
+
+<i class="fa-solid fa-robot"></i>
+
+</div>
+
+
+
+<!-- CHAT WINDOW -->
+
+<div class="chat-modal"
+id="chatModal">
+
+<button
+class="close-chat"
+onclick="closeChat()">
+
+×
+
+</button>
+
+<iframe
+src="chatbot.html">
+
+</iframe>
+
+</div>
+<script>
+
+function openChat(){
+
+document.getElementById(
+"chatModal"
+).style.display="block";
+
+}
+
+function closeChat(){
+
+document.getElementById(
+"chatModal"
+).style.display="none";
+
+}
+
+</script>
+<script src="js/community.js"></script>
+<script src="js/summary.js"></script>
+</body>
+</html>
