@@ -1,0 +1,267 @@
+PROJECT REPORT
+Submitted By
+Kanak Shree
+B.Tech Computer Science Engineering
+School of Computer Science
+UPES Dehradun
+Academic Year: 2026–2027
+CERTIFICATE
+This is to certify that the project entitled "NagarSathi – AI-Powered Smart Citizen Service Platform" has been developed by Kanak Shree, a student of the Bachelor of Technology (Computer Science Engineering) program at UPES Dehradun.
+The work presented in this report is an original contribution developed as part of the academic curriculum. The project demonstrates the application of modern web technologies to design a citizen-centric municipal service platform.
+ACKNOWLEDGEMENT
+I would like to express my sincere gratitude to my faculty members, mentors, and the School of Computer Science at UPES Dehradun for their continuous encouragement and guidance throughout the development of this project.
+I also acknowledge the assistance of ChatGPT, which was used as a programming assistant for documentation support, debugging, interface improvement, project planning, and code explanation. The complete implementation of the application was carried out manually using HTML, CSS, and JavaScript.
+Finally, I would like to thank my family and friends for their motivation and support during the completion of this project.
+ABSTRACT
+The rapid growth of urban populations has increased the demand for efficient, transparent, and accessible municipal services. However, many local government services remain fragmented across multiple platforms, making it difficult for citizens to register complaints, monitor service requests, or access government welfare schemes efficiently.
+NagarSathi is a smart citizen service platform designed to simplify communication between citizens and municipal authorities through a unified digital interface. The platform enables users to register complaints, track complaint status, explore government schemes, interact with an AI-powered municipal assistant, access emergency contacts, and monitor municipal updates through an interactive dashboard.
+The application has been developed using HTML5, CSS3, and JavaScript while utilizing browser technologies such as Web Speech API, Speech Recognition API, Local Storage API, Fetch API, and FileReader API. The platform is responsive, multilingual, and user-friendly, ensuring accessibility across various devices.
+Although the current implementation is a frontend prototype, the modular architecture allows future integration with databases, authentication systems, GPS-based complaint reporting, AI-powered image analysis, multilingual support, and mobile applications.
+TABLE OF CONTENTS
+Introduction
+Problem Statement
+Objectives
+Proposed Solution
+Features
+Technology Stack
+System Architecture
+Module Description
+Development Process
+Testing
+Future Scope
+Conclusion
+References
+CHAPTER 1
+INTRODUCTION
+Digital governance has become an essential requirement for modern smart cities. Citizens expect government services to be transparent, easily accessible, and available online. Traditional municipal systems often require physical visits to government offices, increasing delays and reducing citizen engagement.
+NagarSathi is a web-based smart citizen platform that centralizes multiple municipal services into a single application. It provides citizens with an easy-to-use interface for complaint registration, complaint tracking, AI-assisted support, government schemes, emergency contacts, and municipal information.
+The project demonstrates how modern frontend web technologies can contribute to improving digital governance while providing an intuitive and responsive user experience.
+CHAPTER 2
+PROBLEM STATEMENT
+Current municipal systems face several challenges, including:
+• Fragmented online services
+• Manual complaint registration
+• Lack of complaint tracking
+• Poor transparency
+• Limited awareness of government welfare schemes
+• Language barriers
+• Limited digital accessibility
+These issues reduce citizen participation and create unnecessary administrative workload.
+CHAPTER 3
+OBJECTIVES
+The primary objectives of NagarSathi are:
+• Develop a centralized municipal service portal.
+• Simplify complaint registration.
+• Improve complaint tracking.
+• Increase transparency between citizens and municipal authorities.
+• Provide easy access to government welfare schemes.
+• Integrate AI-based citizen assistance.
+• Support multilingual interaction.
+• Provide responsive web accessibility.
+CHAPTER 4
+PROPOSED SOLUTION
+NagarSathi provides a unified web platform that combines multiple municipal services into a single application.
+The platform enables citizens to:
+• Register complaints
+• Upload issue photographs
+• Track complaint status
+• Explore government welfare schemes
+• Access municipal services
+• Interact with an AI chatbot
+• Use voice-based interaction
+• View municipal dashboard information
+• Access emergency contacts
+The proposed system focuses on improving accessibility, transparency, and citizen engagement through an intuitive interface.
+CHAPTER 5
+FEATURES
+Home Portal
+• Government-inspired user interface
+• Responsive navigation
+• Quick service access
+Complaint Registration
+• Complaint categories
+• Image upload
+• Complaint submission
+Complaint Tracking
+• Search using Complaint ID
+• View complaint status
+• Resolution progress
+AI Municipal Assistant
+• Municipal information
+• Hindi language support
+• Smart responses
+Voice Assistant
+• Speech Recognition
+• Speech Synthesis
+• Voice interaction
+Smart Dashboard
+• Community feed
+• City statistics
+• AI daily summary
+• Active municipal works
+Government Schemes
+• Welfare schemes
+• Search functionality
+• Official government links
+CHAPTER 6
+TECHNOLOGY STACK
+Frontend
+• HTML5
+• CSS3
+• JavaScript (ES6)
+Browser APIs
+• Web Speech API
+• Speech Recognition API
+• Speech Synthesis API
+• Local Storage API
+• Fetch API
+• FileReader API
+Libraries
+• Font Awesome
+• Google Fonts
+Development Tools
+• Visual Studio Code
+• Git
+• GitHub
+CHAPTER 7
+SYSTEM ARCHITECTURE
+The application follows a modular frontend architecture.
+Citizen
+
+↓
+
+User Interface (HTML)
+
+↓
+
+CSS Styling
+
+↓
+
+JavaScript Logic
+
+↓
+
+JSON / Local Storage
+
+↓
+
+Complaint Management
+
+↓
+
+AI Assistant
+
+↓
+
+Dashboard
+
+↓
+
+Citizen Services
+(Insert Architecture Diagram Here)
+CHAPTER 8
+MODULE DESCRIPTION
+Home Module
+Provides access to all municipal services through a simple dashboard.
+Login Module
+Allows users to securely access the application.
+Complaint Module
+Enables complaint registration with image upload.
+Tracking Module
+Displays complaint progress using Complaint ID.
+Dashboard Module
+Shows municipal statistics, community feed, and city updates.
+AI Chatbot Module
+Provides municipal assistance through conversational interaction.
+Voice Assistant Module
+Supports speech recognition and speech synthesis.
+Government Schemes Module
+Displays welfare schemes and official government links.
+Contact Module
+Allows citizens to communicate with municipal authorities.
+CHAPTER 9
+DEVELOPMENT PROCESS
+The project was developed manually using HTML, CSS, and JavaScript.
+During development, ChatGPT was used for:
+• Programming guidance
+• UI improvement
+• Debugging
+• Documentation
+• Project planning
+• Architecture discussion
+The implementation, testing, and project integration were completed manually by the developer.
+CHAPTER 10
+TESTING
+The application was manually tested to verify its functionality.
+Test Case	Result
+Home Navigation	Passed
+Login Module	Passed
+Complaint Registration	Passed
+Complaint Tracking	Passed
+Dashboard	Passed
+AI Chatbot Interface	Passed
+Voice Assistant	Passed
+Responsive Design	Passed
+Government Schemes	Passed
+Contact Page	Passed
+CHAPTER 11
+FUTURE SCOPE
+Future enhancements include:
+• Backend integration
+• Firebase or MongoDB database
+• User authentication
+• Officer dashboard
+• GPS-enabled complaint reporting
+• AI-based image classification
+• Push notifications
+• Mobile application
+• Multi-language support
+• Open Government APIs
+CHAPTER 12
+CONCLUSION
+NagarSathi demonstrates how modern web technologies can simplify municipal service delivery through a centralized citizen portal. The platform successfully integrates complaint registration, complaint tracking, AI-assisted interaction, government schemes, emergency services, and municipal dashboards into a single user-friendly application.
+The modular architecture provides a strong foundation for future enhancements, including backend integration, AI-powered analytics, authentication systems, mobile application development, and smart city services. The project highlights the potential of digital platforms in improving transparency, citizen engagement, and efficient governance.
+REFERENCES
+MDN Web Docs
+HTML5 Documentation
+CSS3 Documentation
+JavaScript Documentation
+Web Speech API Documentation
+FileReader API Documentation
+Font Awesome
+Google Fonts
+Government of India Portal
+MyScheme Portal
+APPENDIX
+Folder Structure
+NagarSathi/
+
+├── css/
+├── js/
+├── images/
+├── docs/
+├── index.html
+├── dashboard.html
+├── report.html
+├── track.html
+├── chatbot.html
+├── services.html
+├── schemes.html
+├── about.html
+├── contact.html
+├── login.html
+├── README.md
+└── LICENSE
+Screenshots
+Insert the following screenshots:
+Home Page
+Login Page
+Complaint Registration
+Complaint Tracking
+Dashboard
+AI Chatbot
+Services Page
+Government Schemes
+About Page
+Contact Page
