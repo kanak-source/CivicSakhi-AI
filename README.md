@@ -216,19 +216,62 @@ Future versions can include:
 * Mobile application
 * Multilingual AI support
 
----
+# 🔗 Project Links
 
-# 🔗 Repository
-
-GitHub Repository:
+## GitHub Repository
 
 [NagarSathi GitHub Repository](https://github.com/kanak-source/CivicSakhi-AI)
+
+## Live Demo
+
+[NagarSathi Web Application](https://civic-sakhi-4wl8h8vco-civicsakhi-ai.vercel.app)
+
+## Demo Video
+
+Coming Soon
+
+---
+
+# 🤖 AI-Assisted Development
+
+ChatGPT was used as an AI development assistant throughout the project lifecycle.
+
+Support areas included:
+
+* Requirement analysis and project planning
+* System architecture discussion
+* Debugging and error resolution
+* UI/UX improvement suggestions
+* Documentation preparation
+* Code explanation and refinement
+
+The developer independently implemented, tested, and integrated all project components.
+
+---
+
+# 📸 Application Screenshots
+
+## Home Page
+
+(Add screenshot here)
+
+## Complaint Registration
+
+(Add screenshot here)
+
+## AI Assistant
+
+(Add screenshot here)
+
+## Citizen Dashboard
+
+(Add screenshot here)
 
 ---
 
 # 👩‍💻 Developer
 
-**Kanak Shree**
+**Kanak Shree**  
 University of Petroleum and Energy Studies (UPES), Dehradun
 
 ---
