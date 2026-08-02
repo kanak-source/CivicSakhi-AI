@@ -228,7 +228,9 @@ Future versions can include:
 
 ## Demo Video
 
-Coming Soon
+Google Drive:
+
+https://drive.google.com/file/d/17Sjj0nQeofqEI_MnszmjZHVSItnQS0pH/view?usp=sharing
 
 ---
 
